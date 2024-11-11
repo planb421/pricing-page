@@ -1,0 +1,170 @@
+body {
+    background-color: #3b1e54;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 20px;
+    color: #ffffff;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 40px;
+}
+
+.btn1and3 {
+    background-color: #9874c1;
+    border-radius: 5px;
+    border-style: none;
+    padding: 10px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.btn1and3:hover {
+    background-color: #3b1e54;
+    cursor: pointer;
+}
+
+.btn2 {
+    background-color: #D4bee4;
+    border-radius: 5px;
+    border-style: none;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.btn2:hover {
+    background-color: #c6bdbd;
+    cursor: pointer;
+}
+
+.pColor {
+    color: #a9a8a8;
+    padding-bottom: 15px;
+    margin-right: 16px;
+    
+}
+
+.pCol {
+    color: #a9a8a8;
+    padding-bottom: 15px;
+    margin-left: 16px;
+}
+
+.toggleDiv {
+    display: flex;
+    justify-content: center;
+}
+
+#parentContainter {
+    display: flex;
+    justify-content: center;
+}
+
+.containter1 {
+    background-color: #D4bee4;
+    text-align: center;
+    padding: 30px;
+    border-radius: 5px;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+
+
+}
+
+.containter2 {
+    background-color: #9874c1;
+    text-align: center;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.containter3 {
+    background-color: #D4bee4;
+    text-align: center;
+    padding: 30px;
+    border-radius: 5px;
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  .switch input[type="checkbox"] {
+    display: none;
+  }
+  
+  .slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 34px;
+    background-color: #565656;
+    border-radius: 34px;
+    transition: 0.4s;
+    cursor: pointer;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
+    transition: 0.4s;
+  }
+  
+  input[type="checkbox"]:checked + .slider {
+    background-color: #000000;
+  }
+  
+  input[type="checkbox"]:checked + .slider:before {
+    transform: translateX(26px);
+  }
+
+  @media (max-width: 500px) {
+   #parentContainter {
+    display: block;
+    width: 200px;
+    position: relative;
+    left: 28%;
+    
+   }
+
+   .containter1 {
+    margin-bottom: 50px;
+   }
+
+   .containter2 {
+    margin-bottom: 50px;
+   }
+
+   .containter3 {
+    margin-bottom: 50px;
+   }
+   
+  }
+  
+  
+
+
+ 

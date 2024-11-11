@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Component With Toggle</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Our Pricing</h1>
+
+    <div class="toggleDiv">
+        <p class="pColor">Annually</p>
+        <label class="switch">
+            <input type="checkbox" id="toggle" onclick="toggleSwitch()">
+            <span class="slider"></span>
+          </label>
+        <p class="pCol">monthly</p>
+    </div>
+
+    <div id="parentContainter">
+        <div class="containter1">
+            <h2>Basic</h2>
+            <h3><span>$</span> 19.99</h3>
+            <p class="pstyle">500 GB Storage</p>
+            <p class="pstyle">2 Users Allowed</p>
+            <p class="pstyle">Send up to 3 GB</p>
+            <button class="btn1and3">LEARN MORE</button>
+        </div>
+
+        <div class="containter2">
+            <h2>Professional</h2>
+            <h3><span>$</span> 24.99</h3>
+            <p class="pstyle">1 TB Storage</p>
+            <p class="pstyle">5 Users Allowed</p>
+            <p class="pstyle">Send up to 10 GB</p>
+            <button class="btn2">LEARN MORE</button>
+        </div>
+
+        <div class="containter3">
+            <h2>Master</h2>
+            <h3><span>$</span> 39.99</h3>
+            <p class="pstyle">2 TB Storage</p>
+            <p class="pstyle">10 Users Allowed</p>
+            <p class="pstyle">Send up to 20 GB</p>
+            <button class="btn1and3">LEARN MORE</button>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
